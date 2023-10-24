@@ -290,7 +290,7 @@ def plot_roc_curve(y_true, y_pred,y_true1,y_pred1):
     roc_auc = metrics.auc(fpr, tpr)
     fpr1, tpr1, thresholds = metrics.roc_curve(y_true1, y_pred1)
     roc_auc1 = metrics.auc(fpr1, tpr1)
-    # 绘制 ROC 曲线
+   
     plt.figure()
     lw = 2
     # label='GCN ROC curve (area = %0.2f)' % roc_auc
