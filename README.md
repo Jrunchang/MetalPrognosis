@@ -4,15 +4,15 @@ __MetalPrognosis__: a Biological Language Model-based Approach for Disease-Assoc
 ## 1.Ststem requirement
 MetalPrognosis is developed under **Linux** environment with:
 
-`bio-transformers==0.1.17
+`bio-transformers==0.1.17`
 
-biopython==1.81
+`biopython==1.81`
 
-torch==1.12.0+cu116
+`torch==1.12.0+cu116`
 
-torchaudio==0.12.0+cu116
+`torchaudio==0.12.0+cu116`
 
-torchvision==0.13.0+cu116`
+`torchvision==0.13.0+cu116`
 
 ## 2. Download pre-trained language model
 You need to prepare the pretrained language model ESMfold to run MetalPrognosis:<br>
