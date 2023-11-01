@@ -21,6 +21,7 @@ Download esm1b_t33_650M_UR50S model at:<https://github.com/facebookresearch/esm>
 
 ## 3.Run MetalPrognosis for prediction
 Users can choose to upload the metalloproteins **FASTA** sequence of Homo sapiens, or the protein **PDB** structure and the corresponding metal binding **sites**.
+#### Example:
 
 `python predict.py --input demo.fasta --site 20,33,58 --outpath /home/runchangjia/id_dict/result.csv`<br>
 
