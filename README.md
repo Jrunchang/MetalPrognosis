@@ -15,7 +15,7 @@ MetalPrognosis is developed under **Linux** environment with:
 `torchvision==0.13.0+cu116`
 
 ## 2. Download pre-trained language model
-You need to prepare the pretrained language model ESMfold to run MetalPrognosis:<br>
+You need to prepare the pretrained language model **ESMfold** to run MetalPrognosis:<br>
 
 Download esm1b_t33_650M_UR50S model at:<https://github.com/facebookresearch/esm>
 
@@ -28,6 +28,6 @@ Users can choose to upload the metalloproteins **FASTA** sequence of Homo sapien
 
 
 ## 4.Webserver
-we developed and deployed a free online web server to predict disease-related mutation sites on metalloproteins at:
+We developed and deployed a free online web server to predict disease-related mutation sites on metalloproteins at:
 <http://metalprognosis.unimelb-biotools.cloud.edu.au/>
 
