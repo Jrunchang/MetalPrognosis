@@ -17,7 +17,10 @@ MetalPrognosis is developed under **Linux** environment with:
 ## 2. Download pre-trained language model
 You need to prepare the pretrained language model **ESMfold** to run MetalPrognosis:<br>
 
-Download esm1b_t33_650M_UR50S model at:<https://github.com/facebookresearch/esm>
+Download esm1b_t33_650M_UR50S pre-trained model(<https://dl.fbaipublicfiles.com/fair-esm/models/esm1b_t33_650M_UR50S.pt>) at:<https://github.com/facebookresearch/esm>
+Then put it in this path:/.cache/torch/hub/checkpoints/esm1b_t33_650M_UR50S-contact-regression.pt
+
+
 
 ## 3.Run MetalPrognosis for prediction
 Users can choose to upload the metalloproteins **FASTA** sequence of Homo sapiens, or the protein **PDB** structure and the corresponding metal binding **sites**.
