@@ -24,6 +24,11 @@ Users can choose to upload the metalloproteins **FASTA** sequence of Homo sapien
 #### Example:
 
 `python predict.py --input demo.fasta --site 20,33,58 --outpath /home/runchangjia/id_dict/result.csv`<br>
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
 
 `python predict.py --input P50461.pdb --site 58,122 --outpath /home/runchangjia/id_dict/pye.csv`
 
